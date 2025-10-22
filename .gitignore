@@ -1,0 +1,52 @@
+# Node modules and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+out/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Coverage
+coverage/
+*.lcov
+
+# Docker
+.dockerignore
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+pytest_cache/
+
+# Misc
+*.tgz
